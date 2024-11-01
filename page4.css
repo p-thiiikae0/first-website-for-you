@@ -1,0 +1,87 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    }
+    main {
+        width: 400px;
+        height: 400px;
+        margin: 5rem auto;
+        box-shadow: 3px 3px 10px;
+        overflow: hidden;
+        border-radius: 20px;
+        font-family: 'Itim', serif;
+        background-image: url("https://files.oaiusercontent.com/file-Jl9F0VIUuo8oIWosk2tkyfwa?se=2024-10-31T15%3A35%3A02Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dfa3d8a2a-91cc-40da-bdb1-7d5426a47a90.webp&sig=Cw/RiZaVQcOB3d/XoFTLWFHPYwBWaAQtPuCU2oJajZ4%3D");
+        background-size: cover;
+    }
+    li {
+        list-style: none;
+    }
+    .btn {
+        font-family: sans-serif;
+        list-style: none;
+        border: 2px solid #000;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 18px;
+        font-size: 1rem;
+        cursor: pointer;
+        background-color: #fff;
+        position: relative;
+        transition: all 0.25s ease;
+        color: #000;
+        overflow: hidden;
+        border-radius: 30px;
+    }
+    .btn:hover {
+        transform: translate(0,-5px);
+        border-style: none;
+    }
+    .btn:hover ::after {
+        transform: rotate(150deg);
+    }
+    .btn::after {
+        content: "";
+        width: 360px;
+        height: 360px;
+        position: absolute;
+        top: -50px;
+        left: -100px;
+        background-color:#febff1;
+        z-index: -1;
+        transition: all 0.25s ease;
+    }
+    .text {
+        font-size: small;
+        padding: 1rem;
+        background-color: #ffffffbe;
+        margin: 0rem 2rem ;
+        border-radius: 30px;
+        font-size: small;
+    }
+    .t1 {
+        color: #ffe14b;
+        text-shadow: 1px 1px 0px #000;
+        margin-top: 1.5rem;
+        padding-left: 3rem;
+        padding-bottom: 0.25rem;
+    }
+    .t3 {
+        font-size: xx-small;
+        margin-left: 13rem;
+    }
+    .t5 {
+        font-size: smaller;
+        margin-left: 2rem;
+        padding-top: 1rem;
+    }
+    .t6 {
+        color: #ffe14b;
+        text-shadow: 1px 1px 0px #000;
+        padding: 0.8rem 0rem;
+    }
+    .t7 {
+        color: #febff1;
+        text-shadow: 1px 1px 1px #000;
+    }

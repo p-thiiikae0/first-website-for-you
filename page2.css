@@ -1,0 +1,65 @@
+* {
+    margin : 0;
+    padding : 0;
+    } 
+    main {
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        box-shadow: 3px 3px 10px;
+        overflow: hidden;
+        border-radius: 20px;
+        background-image: url("https://img.freepik.com/premium-vector/cute-cartoon-wolf_287270-443.jpg?w=360");
+        background-position: center;
+        font-family: 'Itim', serif;
+    }
+    li {
+        width: 100px;
+        height: 30px;
+        border: 2px solid red;
+        list-style: none;
+    }
+    .btn {
+        list-style: none;
+        border: 2px solid #000;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 12px;
+        font-size: 1rem;
+        cursor: pointer;
+        background-color: #ffffff;
+        position: relative;
+        transition: all 0.25s ease;
+        color: #000;
+        overflow: hidden;
+        border-radius: 30px;
+    }
+    .btn:hover {
+        transform: translate(0,-5px);
+        border-style: none;
+    }
+    .btn:hover ::after {
+        transform: rotate(150deg);
+    }
+    .btn::after {
+        content: "";
+        width: 360px;
+        height: 360px;
+        position: absolute;
+        top: -50px;
+        left: -100px;
+        background-color:#ffe14b;
+        z-index: -1;
+        transition: all 0.25s ease;
+    }
+    .tell-next {
+        color: #ffe14b;
+        text-shadow: 1px 1px 1px #000;
+        border: 2px solid red;
+    }
+    .message {
+        color: #000;
+        height: 330px;
+        border: 2px solid red; 
+    }
